@@ -20,7 +20,7 @@ bool x = digitalRead(5);
 //using the digitalWrite function
 if (x==0) {
 digitalWrite(2, 1);
-digitalWrite(3, 0);
+digitalWrite(3, 1);
 digitalWrite(4, 1);
 }
 //than if any other state but pressed state occurs the RGB LED turns off
